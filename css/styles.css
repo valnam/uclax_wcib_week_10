@@ -1,0 +1,41 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #6398ce;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+  body .responsive {
+    max-width: 50%;
+    height: auto; }
+  body h2 {
+    margin-top: 2rem; }
+  body .btn-primary {
+    color: #fff;
+    background-color: #6399cd;
+    border-color: #6399cd; }
+  body .jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; }
+  @media (min-width: 768px) {
+    body .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem; } }
+  body .jumbotron p:last-child {
+    margin-bottom: 0; }
+  body .jumbotron h1 {
+    font-weight: 300; }
+  body .jumbotron .container {
+    max-width: 40rem; }
+  body footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+  body footer p {
+    margin-bottom: .25rem; }
