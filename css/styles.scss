@@ -14,10 +14,6 @@ body {
   height: auto;
 }
 
-portfolio-wrap {
-  display; block;
-}
-
 portfolio-container {
   display: flex;
   justify-content: space-between;
@@ -34,21 +30,6 @@ h2 {
     background-color: #6399cd;
     border-color: #6399cd;
 }
-
-.column {
-			  float: left;
-			  width: 50%;
-			  padding-left: 50px;
-				padding-right: 50px;
-			  height: 300px;
-			}
-
-			.row:after {
-			  content: "";
-			  display: table;
-			  clear: both;
-			}
-
 
 .jumbotron {
   padding-top: 3rem;
